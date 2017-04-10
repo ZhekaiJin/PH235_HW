@@ -1,0 +1,6 @@
+For this problem, I firstly came up with the idea to create a 100 by 100 zero matrix using nested loops.(2 for loops) and use these 10e4 points to represent the complex number c with x and y coordinate to represent complex's real and imaginary part. Then I do the O(100^2) calculation with every time z starts at 0 and give all Cs fitting the requirement value 1 while other points remian zero. then plot the graph.(problem1.v2)
+
+
+Then I was looking up online and found that numpy package has a function called ogrid which generate grid directly for you. so I just replace the nested loop with ogrid and make my code simpler and cleaner.(Problem1.py)
+
+Both methods generate the same graph.

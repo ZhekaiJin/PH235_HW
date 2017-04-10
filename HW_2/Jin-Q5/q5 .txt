@@ -1,0 +1,14 @@
+For 5 .a)
+    I understadn we need to do central differentiation in the middle of the graph and forward integration at lower and left edge, backward integration at right and upper edge. 
+    But it is pretty tedious to do all the classification and different methods.
+
+    I found numpy package have a function gradient that automatically use different methods of differentiation and work out the arrays.
+
+"
+    The gradient is computed using second order accurate central differences in the interior and either first differences or second order accurate one-sides (forward or backwards) differences at the boundaries. The returned gradient hence has the same shape as the input array.
+
+
+    "
+    quote from https://docs.scipy.org/doc/numpy/reference/generated/numpy.gradient.html
+
+and I turn up the border accuracy to 2 to better situate the scenario in the problem. And for question c just change the file and use the same method.

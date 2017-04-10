@@ -1,0 +1,6 @@
+For Problem 2, 
+I just use the accumulation method stated in the book and as required slice the integration region into 100 slices adn pile up the values to get the final area.
+
+Answer
+
+The running time takes about 1 sec for 650000's slices. The result 1.57079632362  accurate to 8 decimal places which is half of C (python's self precision)

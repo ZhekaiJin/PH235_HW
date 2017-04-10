@@ -1,0 +1,13 @@
+Question 1
+
+   For question 1, number a a is simply put in constants, ask for A and Z then do if else clause  to determine a5, then compute B.
+
+   for number b , just change output from B to B/A.
+
+   for number c, the key is to record Ba max in the for loop. thus I campare Ba with a Bamax, if larger than replace Bamax with Ba's value.
+
+   number d is just to add another bigger loop about z around the loop to record Zmax with the same method mentioned above.
+
+
+
+   Scott

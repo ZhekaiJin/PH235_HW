@@ -1,0 +1,29 @@
+  4.a 
+
+  I used ogrid and question 1)'s way to get the r is really simple,
+  Its just using complex's identity (magnitude= distance), which means use abs() to get the values.
+  Then just compute the potential at every point  due to  the two points and add them together to generate the electrical potential of the full grid  (using the formula given by the question)
+
+
+
+  4.b 
+      I useD numpy's package's gradient (which include both central differentiation and one-side differentiation ) to calculate the partial differential, then use matlabplot's arrow (streamplot) to connect near points together to generate arrow graph.
+      And also plot magnitude with density plot in the back with different color (I use jet) to fulfill the whole graph.
+
+
+  4.c
+##reason for use mesh grid and different scale in 4.c’s code   
+
+(    From problem a and b I have been using graph from - 0.5 to 0.5 but in this problem because my idea is to use Reiman' sum for the double integral, 
+    which means I have to add up all the functions calculated with coordinate other than the coordinates of that points ( in this case 999 points in total) to 
+   generate that points' potential" because I am doing the 100 times 100 grid by Question's requirement and it is rather easier to set my grid from - 50 to 50 
+   rather than -0.5 to 0.5. Thus my step for each iteration will just be 1 (h=1) and Integral+=h*y (simple ca1se in Question 2)will just be Integral+=h*f(f is my function)
+    Also my function can't be using ogrid but mesh grid because I will have to have 2 dimensional array with indexes which I can use to add value of integration to.)
+
+  For question 4.3. firstly use scipy's integration method to integrate over every point as a double integral, Then use the results for input to calculate the negative gradient and generate the electrical field.
+  Though plotted quickly but the graph is rather coarse.
+   
+ Then I tried to use the integration in the Question #2,but i found it was extremely tedious on my scale from -0.5 to 0.5 since h get really small. So I just enlarge my scale to 100 by 100 ( from -50 to 50 ) by giving every h value of 1 ) Thus, it is just for every point add up other 999 points value for the double integral. The result then be stored in the 2-D array I generated to feed and calculate gradient. The graph I got was extremely similar to method 1 and I use that graph for submission.
+
+  
+Another method I tried is to calculate the integral just by a 10 by 10 mesh then calculate the differential based on the required mesh (10 by 10 ), the result came out awfully off so I decide not to submit.

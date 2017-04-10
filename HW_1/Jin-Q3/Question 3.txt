@@ -1,0 +1,12 @@
+Question 3 
+
+First set up the sun at the origin
+Then bring in all the radius,  Orbit , Period and self-designed color scheme as seperate lists. 
+
+Create a empty array of type sphere as suggested and use a for to set up their initial configuarations.
+
+Use another for loop to set them into move by use x=Acos(wt) y=Asin(wt)
+Figure put the scaling factor to make the animation clear.
+
+
+Scott

@@ -1,0 +1,12 @@
+Question2
+
+Basically follow the instruction 
+create a list of prime numbers 
+check the new number if it can be divide by the prime numbers in the list up to sqrt(n)
+Thus, use if break can satisfy this idea.
+
+Then , to avoid multiple addtion of the new prime number in the list use boolean to suggeest the isPrime(true or false) relationship  and finnaly bring out the whole list.
+
+
+
+Scott
