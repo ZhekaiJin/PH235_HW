@@ -1,0 +1,4 @@
+Q3,
+Its not pratical to light at 6000 K.
+The melting point of tungsten is 3695 K.
+ And the heating would cost a lot more than then the electricity used, Thus the energy consumed will be huge.
