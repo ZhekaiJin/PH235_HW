@@ -20,4 +20,4 @@ were explored. And later linear and nonlinear systems of equations, the solution
 * [SETS 2](https://github.com/ZhekaiJin/PH235_HW/tree/master/HW_2)(Integral Solving, Trapezoidal and Romberg Solution,file data Processing)
 * [SETS 3](https://github.com/ZhekaiJin/PH235_HW/tree/master/HW_3)(Lagrange Point,Heavy Integral Solving, Chain of Differential Equation solving, Deterministic Chaos)
 * [SETS 4](https://github.com/ZhekaiJin/PH235_HW/tree/master/HW_4)(fourth-order Runge–Kutta method,chaotic Characteristic,Fast Fourier transfrom&Reverse Fast Fourier transfrom)
-* [SETS 5](https://github.com/ZhekaiJin/PH235_HW/tree/master/HW_4)(Belousov–Zhabotinsky reaction,sampling,Global minimum finding)
+* [SETS 5](https://github.com/ZhekaiJin/PH235_HW/tree/master/HW_5)(Belousov–Zhabotinsky reaction,sampling,Global minimum finding)
